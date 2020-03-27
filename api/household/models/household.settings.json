@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "households",
+  "info": {
+    "name": "Household"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "owner": {
+      "type": "string"
+    },
+    "extendedFamily": {
+      "type": "string"
+    },
+    "tenant": {
+      "type": "string"
+    },
+    "landline": {
+      "type": "string"
+    },
+    "cellphone": {
+      "type": "string"
+    },
+    "houseNumber": {
+      "type": "string"
+    },
+    "streetName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "representative": {
+      "type": "string"
+    }
+  }
+}

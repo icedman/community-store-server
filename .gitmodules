@@ -1,0 +1,6 @@
+[submodule "plugins/auth-firebases"]
+	path = plugins/auth-firebases
+	url = https://github.com/icedman/strapi-plugin-auth-firebase
+[submodule "storage"]
+	path = storage
+	url = https://github.com/icedman/strapi-plugin-storage-local
